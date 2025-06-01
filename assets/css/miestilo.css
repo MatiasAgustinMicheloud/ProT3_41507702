@@ -34,3 +34,89 @@ header{
     background-color: #1E1E1E;
     border-top: 3px solid #E10600; 
 }
+
+.principal-personalizado h1 {
+    margin-bottom: 20px;
+}
+
+.principal-personalizado p{
+    font-size: 20px;
+}
+
+
+#quienes-somos{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+#quienes-somos h2{
+    color: #E10600;
+    text-align: center;
+}
+
+#quienes-somos p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#quienes-somos div img{
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+#contacto {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+#contacto h2 {
+    color: #E10600;
+    text-align: center;
+}
+
+#contacto p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#contacto form input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#contacto form textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#contacto form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #E10600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contacto-redes{
+    margin-top: 20px;
+}
+
+.contacto-redes a{
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.contacto-redes a:hover {
+    text-decoration:underline;
+}

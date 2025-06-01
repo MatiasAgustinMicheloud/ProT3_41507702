@@ -14,10 +14,6 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link nav_a" href="<?php echo base_url("quienes_somos")?>">Quienes Somos</a>
-            </li>
-
-            <li class="nav-item">
                 <a class="nav-link nav_a" href="<?php echo base_url("acerca_de")?>">Acerca de</a>
             </li>
 

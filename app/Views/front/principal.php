@@ -1,4 +1,4 @@
-<section class="container text-center text-white mt-5">
+<section class="principal-personalizado container text-center text-white mt-5">
 
   <h1>Bienvenido a Pole Position</h1>
 
