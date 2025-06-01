@@ -28,3 +28,9 @@ header{
 .dropdown_a:hover {
     color: #E10600;
 }
+
+
+.footer-personalizado {
+    background-color: #1E1E1E;
+    border-top: 3px solid #E10600; 
+}
