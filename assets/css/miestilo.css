@@ -120,3 +120,96 @@ header{
 .contacto-redes a:hover {
     text-decoration:underline;
 }
+
+#login{
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#login h2 {
+    color: #E10600;
+    text-align: center;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#login form input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#login form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #E10600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registrarse-aca {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.registrarse-aca a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.registrarse-aca a:hover {
+    text-decoration: underline;
+}
+
+
+#registro{
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#registro h2 {
+    color: #E10600;
+    text-align: center;
+}
+
+#registro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#registro form input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#registro form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #E10600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ya_tiene_cuenta{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ya_tiene_cuenta a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.ya_tiene_cuenta a:hover {
+    text-decoration: underline;
+}
