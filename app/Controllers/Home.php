@@ -40,7 +40,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/mclaren');
+        echo view('front/mclaren_view');
         echo view('front/footer_view');
     }
 
@@ -48,7 +48,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/ferrari');
+        echo view('front/ferrari_view');
         echo view('front/footer_view');
     }
 
@@ -56,7 +56,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/redbull');
+        echo view('front/redbull_view');
         echo view('front/footer_view');
     }
 }

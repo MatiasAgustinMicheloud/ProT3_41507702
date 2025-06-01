@@ -22,9 +22,9 @@
                     Equipos
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item dropdown_a" href="#">McLaren</a></li>
-                    <li><a class="dropdown-item dropdown_a" href="#">Ferrari</a></li>
-                    <li><a class="dropdown-item dropdown_a" href="#">Red Bull</a></li>
+                    <li><a class="dropdown-item dropdown_a" href="<?php echo base_url("equipo_mclaren")?>">McLaren</a></li>
+                    <li><a class="dropdown-item dropdown_a" href="<?php echo base_url("equipo_ferrari")?>">Ferrari</a></li>
+                    <li><a class="dropdown-item dropdown_a" href="<?php echo base_url("equipo_redbull")?>">Red Bull</a></li>
                 </ul>
             </li>
 

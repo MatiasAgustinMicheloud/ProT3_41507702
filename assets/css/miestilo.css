@@ -4,6 +4,8 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+/* header */
+
 header{
     background-color: #1E1E1E;
     color: #FFFFFF;
@@ -17,6 +19,8 @@ header{
     max-width: 30%;
 }
 
+/* navbar */
+
 .nav_a {
     margin: 0 1rem;
 }
@@ -29,11 +33,14 @@ header{
     color: #E10600;
 }
 
+/* footer */
 
 .footer-personalizado {
     background-color: #1E1E1E;
     border-top: 3px solid #E10600; 
 }
+
+/* inicio */
 
 .principal-personalizado h1 {
     margin-bottom: 20px;
@@ -43,6 +50,8 @@ header{
     font-size: 20px;
 }
 
+
+/* Acerca_de */
 
 #quienes-somos{
     padding: 20px;
@@ -121,6 +130,8 @@ header{
     text-decoration:underline;
 }
 
+/* login_view */
+
 #login{
     padding: 40px;
     max-width: 400px;
@@ -168,6 +179,8 @@ header{
 }
 
 
+/* registrarse_view */
+
 #registro{
     padding: 40px;
     max-width: 400px;
@@ -212,4 +225,66 @@ header{
 
 .ya_tiene_cuenta a:hover {
     text-decoration: underline;
+}
+
+/* equipo mclaren */
+
+#equipo_mclaren .team-logo {
+    max-width: 30%;
+    padding-top: 20px;
+}
+
+#equipo_mclaren .team-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#equipo_mclaren .team-name {
+    color: #ff5800;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#equipo_mclaren .card-title {
+    color: #ff5800;
+    font-weight: 600;
+}
+
+#equipo_mclaren .section-title {
+    color: #ff5800;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* equipo ferrari */
+
+#equipo_ferrari .team-logo {
+    max-width: 30%;
+    padding-top: 20px;
+}
+
+#equipo_ferrari .team-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#equipo_ferrari .team-name {
+    color: #dc0000;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#equipo_ferrari .card-title {
+    color: #dc0000;
+    font-weight: 600;
+}
+
+#equipo_ferrari .section-title {
+    color: #dc0000;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
