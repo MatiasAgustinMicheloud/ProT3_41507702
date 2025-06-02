@@ -31,7 +31,7 @@
   </p>
 
   <p>
-    Acá vas a encontrar el calendario completo, resultados de las últimas carreras, posiciones del campeonato y detalles sobre los equipos y pilotos. Sin rumores, sin noticias: solo datos concretos para seguir la F1 como se debe.
+    Acá vas a encontrar el calendario completo, resultados de las últimas carreras, posiciones del campeonato y detalles sobre los equipos y pilotos.
   </p>
 
 </section>
