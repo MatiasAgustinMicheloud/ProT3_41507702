@@ -13,3 +13,14 @@ $routes->get('registro', 'Home::registro');
 $routes->get('equipo_mclaren', 'Home::mclaren');
 $routes->get('equipo_ferrari', 'Home::ferrari');
 $routes->get('equipo_redbull', 'Home::redbull');
+
+
+// rutas del regustro de usuarios
+$routes->get('/registro','Usuario_controller::create');
+$routes->post('/enviar-form','Usuario_controller::formValidation');
+
+// rutas del login
+$routes->get('/login','Login_controller');
+$routes->post('/enviarLoin','Loin_controller::auth');
+$routes->get('/panel','Panel_controller::index',['filter'=>'auth']);
+$routes->get('/logout','Login_controller::logout');

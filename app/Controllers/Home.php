@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
+        $data['titulo']='Pole Position';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/principal');
@@ -14,6 +15,7 @@ class Home extends BaseController
 
     public function acerca_de()
     {
+        $data['titulo']='Acerca de';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/acerca_de');
@@ -22,6 +24,7 @@ class Home extends BaseController
 
     public function login()
     {
+        $data['titulo']='login';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/login');
@@ -30,6 +33,7 @@ class Home extends BaseController
 
     public function registro()
     {
+        $data['titulo']='registro';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/registrarse');
@@ -38,6 +42,7 @@ class Home extends BaseController
 
     public function mclaren()
     {
+        $data['titulo']='Pole Position - McLaren';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/mclaren_view');
@@ -46,6 +51,7 @@ class Home extends BaseController
 
     public function ferrari()
     {
+        $data['titulo']='Pole Position - Ferrari';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/ferrari_view');
@@ -54,6 +60,7 @@ class Home extends BaseController
 
     public function redbull()
     {
+        $data['titulo']='Pole Position - Red Bull';
         echo view('front/head_view');
         echo view('front/navbar_view');
         echo view('front/redbull_view');

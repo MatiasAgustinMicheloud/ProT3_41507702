@@ -2,11 +2,13 @@
     <h2>Crear Cuenta</h2>
     
     <form>
-      <input type="text" placeholder="Nombre completo" required/>
+      <input type="text" placeholder="Nombre" required/>
+
+      <input type="text" placeholder="Apellido" required/>
       
       <input type="email" placeholder="Correo electrónico" required/>
       
-      <input type="password" placeholder="Contraseña" required/>
+      <input type="password" placeholder="Contraseña (mínimo 5 caracteres)" required/>
       
       <input type="password" placeholder="Confirmar contraseña" required/>
 
