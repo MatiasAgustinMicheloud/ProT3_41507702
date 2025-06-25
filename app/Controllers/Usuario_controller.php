@@ -3,7 +3,7 @@
  use App\Models\Usuarios_model;
  use CodeIgniter\Controller;
 
- Class Usuario_controller extends Controller{
+ Class Usuario_controller extends BaseController{
 
     public function __construct(){
         helper(['form','url']);
@@ -89,7 +89,7 @@
             ]);
 
             session()->setFlashData('success', 'Usuario registrado con exito!');
-            return $this->response->redirect('/login');
+            return $this->response->redirect(base_url('/login'));
         }
     }
  }

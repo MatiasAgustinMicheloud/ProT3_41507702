@@ -9,7 +9,7 @@
         <?php endif?>
 
         <?php if(!empty (session()->getFlashData('success'))):?>
-            <div class="alert alert-danger"><?=session()->getFlashData('success');?></div>
+            <div class="alert alert-success"><?=session()->getFlashData('success');?></div>
         <?php endif?>
 
 

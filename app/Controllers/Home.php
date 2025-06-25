@@ -22,17 +22,17 @@ class Home extends BaseController
         echo view('front/footer_view');
     }
 
-    public function login()
-    {
-        $data['titulo']='login';
-        echo view('front/head_view', $data);
-        echo view('front/navbar_view');
-        echo view('back/usuario/login');
-        echo view('front/footer_view');
-    }
+    // public function login()
+    // {
+    //     $data['titulo']='login';
+    //     echo view('front/head_view', $data);
+    //     echo view('front/navbar_view');
+    //     echo view('back/usuario/login');
+    //     echo view('front/footer_view');
+    // }
 
     // se crea en usuario_controller
-    
+
     // public function registro()
     // {
     //     $data['titulo']='registro';
