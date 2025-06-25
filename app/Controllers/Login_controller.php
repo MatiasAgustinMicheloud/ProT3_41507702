@@ -80,7 +80,7 @@ Class Login_controller extends BaseController{
                     $session->set($ses_data);
 
                     $session->setFlashdata('success', 'Bienvenido ' . $session->get('usuario'));
-                    return redirect()->to('/login');
+                    return redirect()->to('/panel');
 
                 } else {
                     $session->setFlashdata('fail', 'Contraseña incorrecta');
